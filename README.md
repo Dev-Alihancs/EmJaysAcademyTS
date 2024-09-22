@@ -1,1 +1,1 @@
-# LensKart
+# EmJay's Academy
