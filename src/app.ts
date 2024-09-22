@@ -4,6 +4,7 @@ import path from "path";
 import { loadUserEndpoints } from "./controllers/user";
 import { loadCustomerEndpoints } from "./controllers/customer";
 import { loadPurchaseEndpoints } from "./controllers/purchase";
+import { loadUserAuthEndpoints } from "./controllers/userAuth";
 
 // Create Express server
 const app = express();
@@ -20,5 +21,6 @@ app.use(
 loadUserEndpoints(app);
 loadCustomerEndpoints(app);
 loadPurchaseEndpoints(app);
+loadUserAuthEndpoints(app);
 
 export default app;
